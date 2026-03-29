@@ -4,7 +4,7 @@ import google.generativeai as genai
 from fastapi.middleware.cors import CORSMiddleware
 
 
-genai.configure(api_key="AIzaSyA7Onrr9q9rD3JGtbXivbE8_bLnQ5EWuDA")
+genai.configure(api_key="get a gemini api key for free (here: https://aistudio.google.com/app/")
 
 app = FastAPI(title="The Diagnostics")
 
